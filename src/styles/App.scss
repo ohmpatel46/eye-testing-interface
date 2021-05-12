@@ -1,0 +1,28 @@
+@import "./_question";
+@import "./_testcontainer";
+@import "./_instructions";
+@import "./_result";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height:100vh;
+    color:rgb(44, 44, 44);
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.App{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:rgb(44, 44, 44);
+    h1{
+        margin: 2rem;
+        font-weight: 600;
+        font-size: 3rem;
+    }
+}

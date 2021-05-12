@@ -1,0 +1,33 @@
+.testcontainer{
+    width:90%;
+    height: 30rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    background-color:#c9e9ff;
+    box-shadow: 2px 2px 10px #78CCC9;
+    padding: 30px 0px;
+    input{
+        border:none;
+        height:3rem;
+        padding: 5px;
+        font-size: 1rem;
+        border-radius:2px;
+    }
+    input:focus-visible,input:active{
+        outline:black solid 0.5px;
+    }
+
+    button{
+        width:8rem;
+        margin: 1rem;
+        padding: 0.5rem 1rem;
+        border:none;
+        border-radius:5px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color:rgb(202, 202, 202);;
+    }
+}
